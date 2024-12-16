@@ -1,0 +1,43 @@
+{
+  "name": "ralaigh_com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "8.17.1",
+    "ajv-keywords": "5.1.0",
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "react": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^18.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "prop-types": "^15.8.1",
+    "react-select": "^5.2.1",
+    "react-alice-carousel": "^2.5.1",
+    "react-rating-stars-component": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "eslintConfig": {
+    "extends": ["next", "next/core-web-vitals"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "devDependencies": {
+    "prop-types": "^15.8.1",
+    "autoprefixer": "10.4.2",
+    "postcss": "8.4.8",
+    "tailwindcss": "3.4.6",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "typescript": "^5.3.3"
+  }
+}
